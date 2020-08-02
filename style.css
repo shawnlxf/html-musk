@@ -36,8 +36,15 @@ p {
 img {
   max-width: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+}
+
+.switch {
+  text-align: center;
+}
+
+.max {
+  max-width: 100%;
 }
 
 caption {
@@ -67,15 +74,14 @@ td {
   text-align: center;
 }
 
-
 thead,
 tfoot {
-    background-color: #3f87a6;
-    color: #fff;
+  background-color: #3f87a6;
+  color: #fff;
 }
 
 tbody {
-    background-color: #e4f0f5;
+  background-color: #e4f0f5;
 }
 
 .back-to-top::after {
