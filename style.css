@@ -78,9 +78,10 @@ tbody {
 }
 
 hr {
+    border: none;
     border-top: 3px solid #3d7e9a;
 }
 
-.page-footer {
+.before-main, .after-main {
     border-top: 3px solid #333;
 }
