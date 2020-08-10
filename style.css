@@ -8,15 +8,26 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  padding-top: 10px;
+  border-top: 3px solid #3d7e9a;
+}
+
 h3 {
-    display: inline-block;
-    padding: 0 4px 0 40px;
-    background-color: #333;
-    color: #fff;
+  display: inline-block;
+  padding: 0 4px 0 40px;
+  background-color: #333;
+  color: #fff;
+}
+
+nav {
+  padding: 10px 0;
+  border-bottom: 3px solid #333;
 }
 
 footer {
-  padding-bottom: 20px;
+  padding: 20px 0;
+  border-top: 3px solid #333;
 }
 
 .back-to-top {
@@ -44,6 +55,7 @@ img {
 
 .switch {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 caption {
@@ -75,13 +87,4 @@ thead {
 
 tbody {
   background-color: #e4f0f5;
-}
-
-hr {
-    border: none;
-    border-top: 3px solid #3d7e9a;
-}
-
-.before-main, .after-main {
-    border-top: 3px solid #333;
 }
