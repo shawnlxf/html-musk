@@ -63,15 +63,23 @@ footer {
   padding: 20px 0;
 }
 
-img {
+.img-wrapper {
+  width: 400px;
   max-width: 100%;
-  display: block;
   margin: 0 auto;
+  height: 300px;
 }
 
-.switch {
-  text-align: center;
-  margin: 10px 0;
+.displayed-img {
+  max-width: 100%;
+  display: block;
+}
+
+.thumb-bar img {
+  display: block;
+  width: calc(100% / 3);
+  float: left;
+  cursor: pointer;
 }
 
 caption {

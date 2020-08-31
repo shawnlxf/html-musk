@@ -1,12 +1,14 @@
-let myImage = document.querySelector("img");
+const displayedImage = document.querySelector('.displayed-img');
+const thumbBar = document.querySelector('.thumb-bar');
 
-myImage.onclick = function () {
-    let mySrc = myImage.getAttribute("src");
-    if (mySrc === "img/1.jpg") {
-        myImage.setAttribute("src", "img/2.jpg");
-    } else if (mySrc === "img/2.jpg") {
-        myImage.setAttribute("src", "img/3.jpg");
-    } else {
-        myImage.setAttribute("src", "img/1.jpg");
+/* Looping through images */
+
+for (let i = 1; i <= 3; i++) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', 'img/' + i + '.jpg');
+    newImage.onclick = function (e) {
+        displayedImage.src = e.target.src;
     }
-};
+    thumbBar.appendChild(newImage);
+}
+
